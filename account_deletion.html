@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yemac - Hesap Silme / Account Deletion</title>
+    <style>
+        body { 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+            margin: 20px; 
+            line-height: 1.6; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { color: #333; }
+        .language-section { 
+            border-bottom: 2px solid #eee; 
+            margin-bottom: 40px; 
+            padding-bottom: 20px; 
+        }
+        .language-toggle {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .language-toggle a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .app-info {
+            background: #e3f2fd;
+            padding: 20px;
+            border-left: 4px solid #2196f3;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .deletion-steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .contact-form {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .step {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #4caf50;
+            border-radius: 5px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .data-table th {
+            background-color: #f2f2f2;
+        }
+        .email-button {
+            display: inline-block;
+            background: #dc3545;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .email-button:hover {
+            background: #c82333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="language-toggle">
+            <a href="#turkish">Türkçe</a>
+            <a href="#english">English</a>
+        </div>
+
+        <div class="app-info">
+            <h1>🍽️ Yemac Uygulaması - Hesap Silme Talebi</h1>
+            <p><strong>Geliştirici:</strong> 217</p>
+            <p><strong>Uygulama Adı:</strong> Yemac - Yemek Tarifleri Uygulaması</p>
+        </div>
+
+        <!-- TURKISH VERSION -->
+        <div id="turkish" class="language-section">
+            <h2>🗑️ HESAP SİLME TALEBİ</h2>
+            
+            <div class="warning-box">
+                <strong>⚠️ ÖNEMLİ UYARI:</strong> Hesabınızı sildiğinizde, tüm verileriniz kalıcı olarak silinecektir ve bu işlem geri alınamaz.
+            </div>
+
+            <h3>📋 Hesap Silme İçin Gerekli Adımlar</h3>
+            <div class="deletion-steps">
+                <div class="step">
+                    <strong>Adım 1:</strong> Aşağıdaki e-posta adresine hesap silme talebi gönderin
+                </div>
+                <div class="step">
+                    <strong>Adım 2:</strong> E-posta konusu: "Yemac Hesap Silme Talebi"
+                </div>
+                <div class="step">
+                    <strong>Adım 3:</strong> E-postanızda şu bilgileri belirtin:
+                    <ul>
+                        <li>Kayıtlı e-posta adresiniz</li>
+                        <li>Kullanıcı adınız (varsa)</li>
+                        <li>Hesap silme sebebiniz (isteğe bağlı)</li>
+                    </ul>
+                </div>
+                <div class="step">
+                    <strong>Adım 4:</strong> Talebiniz 7 iş günü içinde işleme alınacaktır
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>📧 İletişim</h3>
+                <p>Hesap silme talebi için aşağıdaki e-posta adresine yazın:</p>
+                <a href="mailto:yusufcihanuzun@gmail.com?subject=Yemac Hesap Silme Talebi&body=Merhaba,%0D%0A%0D%0AYemac uygulamasında kayıtlı hesabımın silinmesini talep ediyorum.%0D%0A%0D%0AKayıtlı e-posta: [E-POSTA-ADRESINIZ]%0D%0AKullanıcı adı: [KULLANICI-ADINIZ]%0D%0A%0D%0ATeşekkürler." class="email-button">
+                    📧 Hesap Silme Talebi Gönder
+                </a>
+                <p><strong>E-posta:</strong> yusufcihanuzun@gmail.com</p>
+            </div>
+
+            <h3>📊 Silinecek ve Saklanacak Veriler</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Veri Türü</th>
+                        <th>İşlem</th>
+                        <th>Saklama Süresi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hesap Bilgileri (E-posta, Kullanıcı Adı)</td>
+                        <td>Tamamen Silinir</td>
+                        <td>Anında</td>
+                    </tr>
+                    <tr>
+                        <td>Profil Fotoğrafı</td>
+                        <td>Tamamen Silinir</td>
+                        <td>Anında</td>
+                    </tr>
+                    <tr>
+                        <td>Yüklenen Tarifler ve Fotoğraflar</td>
+                        <td>Tamamen Silinir</td>
+                        <td>Anında</td>
+                    </tr>
+                    <tr>
+                        <td>Yorumlar ve Beğeniler</td>
+                        <td>Tamamen Silinir</td>
+                        <td>Anında</td>
+                    </tr>
+                    <tr>
+                        <td>Uygulama Kullanım Verileri</td>
+                        <td>Anonimleştirilerek Saklanır</td>
+                        <td>İstatistiksel amaçlar için</td>
+                    </tr>
+                    <tr>
+                        <td>Yasal Kayıtlar</td>
+                        <td>Saklanır</td>
+                        <td>Yasal gereklilikler süresi (5 yıl)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>⏱️ İşlem Süresi</h3>
+            <ul>
+                <li><strong>Talep İşleme:</strong> 7 iş günü</li>
+                <li><strong>Veri Silme:</strong> Talep onaylandıktan sonra 30 gün</li>
+                <li><strong>Onay E-postası:</strong> İşlem tamamlandıktan sonra gönderilir</li>
+            </ul>
+
+            <h3>🔒 Güvenlik ve Doğrulama</h3>
+            <p>Güvenlik amacıyla, hesap silme talebiniz sadece kayıtlı e-posta adresinizden gönderildiğinde işleme alınacaktır. Ek doğrulama gerekebilir.</p>
+        </div>
+
+        <!-- ENGLISH VERSION -->
+        <div id="english" class="language-section">
+            <h2>🗑️ ACCOUNT DELETION REQUEST</h2>
+            
+            <div class="app-info">
+                <h3>🍽️ Yemac App - Account Deletion Request</h3>
+                <p><strong>Developer:</strong> 217</p>
+                <p><strong>App Name:</strong> Yemac - Recipe Sharing App</p>
+            </div>
+            
+            <div class="warning-box">
+                <strong>⚠️ IMPORTANT WARNING:</strong> When you delete your account, all your data will be permanently deleted and this action cannot be undone.
+            </div>
+
+            <h3>📋 Steps Required for Account Deletion</h3>
+            <div class="deletion-steps">
+                <div class="step">
+                    <strong>Step 1:</strong> Send an account deletion request to the email address below
+                </div>
+                <div class="step">
+                    <strong>Step 2:</strong> Email subject: "Yemac Account Deletion Request"
+                </div>
+                <div class="step">
+                    <strong>Step 3:</strong> Include the following information in your email:
+                    <ul>
+                        <li>Your registered email address</li>
+                        <li>Your username (if applicable)</li>
+                        <li>Reason for account deletion (optional)</li>
+                    </ul>
+                </div>
+                <div class="step">
+                    <strong>Step 4:</strong> Your request will be processed within 7 business days
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>📧 Contact</h3>
+                <p>For account deletion requests, please write to the following email address:</p>
+                <a href="mailto:yusufcihanuzun@gmail.com?subject=Yemac Account Deletion Request&body=Hello,%0D%0A%0D%0AI request the deletion of my account registered in the Yemac application.%0D%0A%0D%0ARegistered email: [YOUR-EMAIL-ADDRESS]%0D%0AUsername: [YOUR-USERNAME]%0D%0A%0D%0AThank you." class="email-button">
+                    📧 Send Account Deletion Request
+                </a>
+                <p><strong>Email:</strong> yusufcihanuzun@gmail.com</p>
+            </div>
+
+            <h3>📊 Data to be Deleted and Retained</h3>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Action</th>
+                        <th>Retention Period</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Account Information (Email, Username)</td>
+                        <td>Completely Deleted</td>
+                        <td>Immediately</td>
+                    </tr>
+                    <tr>
+                        <td>Profile Photo</td>
+                        <td>Completely Deleted</td>
+                        <td>Immediately</td>
+                    </tr>
+                    <tr>
+                        <td>Uploaded Recipes and Photos</td>
+                        <td>Completely Deleted</td>
+                        <td>Immediately</td>
+                    </tr>
+                    <tr>
+                        <td>Comments and Likes</td>
+                        <td>Completely Deleted</td>
+                        <td>Immediately</td>
+                    </tr>
+                    <tr>
+                        <td>App Usage Data</td>
+                        <td>Anonymized and Retained</td>
+                        <td>For statistical purposes</td>
+                    </tr>
+                    <tr>
+                        <td>Legal Records</td>
+                        <td>Retained</td>
+                        <td>As required by law (5 years)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>⏱️ Processing Time</h3>
+            <ul>
+                <li><strong>Request Processing:</strong> 7 business days</li>
+                <li><strong>Data Deletion:</strong> 30 days after request approval</li>
+                <li><strong>Confirmation Email:</strong> Sent after process completion</li>
+            </ul>
+
+            <h3>🔒 Security and Verification</h3>
+            <p>For security purposes, your account deletion request will only be processed when sent from your registered email address. Additional verification may be required.</p>
+        </div>
+
+        <hr>
+        <p style="text-align: center; color: #666; font-size: 0.9em;">
+            <strong>Yemac App</strong> - Developed by 217<br>
+            For support: yusufcihanuzun@gmail.com
+        </p>
+    </div>
+</body>
+</html> 
